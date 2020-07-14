@@ -94,5 +94,43 @@ a {
 }
 
 #hero-text p {
-  margin: 20px 0 25px 0;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+/* MAIN */
+/* main-top */
+.main-top {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.main-top>.container>div {
+  padding: 0 15px;
+}
+
+.main-top .grey {
+  background: #FAFAFA;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.main-top img {
+  display: block;
+}
+
+.main-top img.name {
+  height: 23px;
+  width: auto;
+  margin: auto;
+}
+
+.main-top p {
+  margin: 25px 0;
+  font-size: 19px;
+}
+
+.main-top img.foto {
+  width: 70%;
+  margin: auto;
 }
