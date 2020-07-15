@@ -42,13 +42,23 @@ h2 {
   color: white;
 }
 
-.xy-align {
+.xy-align-25-50 {
   position: absolute;
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+}
+
+.xy-align-50-50 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 80%;
 }
 
 /* HEADER */
@@ -227,17 +237,9 @@ footer {
 
 /* RESPONSIVE */
 /* Tablet 769 - 992 */
-@media screen and (min-width: 769px) and (max-width: 992px) {
-  .y-align {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-  }
-}
+@media screen and (min-width: 769px) and (max-width: 992px) {}
 
+/* Smartphone */
 @media screen and (max-width: 768px) {
   #bottom-container2 {
     padding-right: 0;
@@ -246,5 +248,11 @@ footer {
 
   #bottom-container3 {
     padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .hero img {
+    margin-left: 0;
   }
 }
